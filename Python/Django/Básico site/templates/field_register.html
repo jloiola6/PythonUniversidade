@@ -1,0 +1,8 @@
+{% if campo.erros %}
+    <div class="alert-danger" align="center">
+        {% for error in campo.errors %}
+            {{ error|striptags }}
+        {% endfor %}
+    </div>
+{% endif %}
+{{ campo }}

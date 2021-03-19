@@ -1,0 +1,95 @@
+#login{
+    text-align: center;
+    width: 350px;
+    height: 330px;
+    background-color: #B0E0E6;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+#error{
+    color: red;
+}
+
+
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("teste.jpeg");
+
+  height: 100%;
+
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#caixa{
+    text-align: center;
+    width: 450px;
+    height: 430px;
+    background-color: #B0E0E6;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+#novo{
+    text-align: center;
+    width: 650px;
+    height: 525px;
+    opacity: 0.8;
+    background-color: #696969;
+    border-radius: 10%;
+}
+
+#search{
+    text-align: center;
+    margin: 0 100px;
+}
+
+#button{
+    text-align: center;
+    position: justify;
+}
+
+#edit{
+    text-align: right;
+    position: justify;
+    margin: 0 0 0 -2%;
+}
+#feed{
+    text-align: center;
+    position: justify;
+    width: auto;
+    height: auto;
+    background-color: gray;
+
+
+}
+
+#image{
+    text-align: center;
+    width: 450px;
+    height: 525px;
+    opacity: 0.8;
+    background-color: #696969;
+    border-radius: 10%;
+}
+
+figure.image_notice figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0,0,0,.9);
+    color: red;
+    width: auto;
+    height: auto;
+    padding: 5%;
+    box-sizing: border-box;
+    transition: opacity .5s;
+}
+
+figure.image_notice:hover figcaption{
+    opacity: 1;
+}

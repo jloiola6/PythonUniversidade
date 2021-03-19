@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsivo</title>
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--    <link rel="stylesheet" href="{% static 'jquery-3.4.1.min.js' %}">-->
+    <link rel="stylesheet" type="text/css" href="{% static 'www/_css/responsivo.css' %}"/>
+
+
+</head>
+<body>
+    {% include 'menu_bar.html' %}
+    <section class="corpo">
+        <br><br><br>
+        {% block conteudo %}
+
+        {% endblock %}
+    </section>
+</body>
+</html>

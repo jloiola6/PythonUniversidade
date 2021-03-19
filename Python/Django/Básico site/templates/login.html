@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+    <div class="container" id="login">
+        <form method="post">
+            {% csrf_token %}
+
+            <br><br><br>
+            <input type="text" name="Login" class="form-control" placeholder="Login" required="required"><br>
+            <input type="password" name="Password" placeholder="Password" class="form-control" required="required"><br>
+            <input type="submit" value="Logar">
+            <a href="http://127.0.0.1:8000/register/">Cadastre-se</a>
+        </form>
+        <br>
+        <div id="error">
+            {% if msg %}
+                {{ msg }}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+    <div class="container" id="caixa">
+         <form method="POST">
+            {% csrf_token %}
+             <br><br>
+            {% for campo in form.visible_fields %}
+                <div class="form-group">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        {% include 'field_register.html' %}
+                    </div>
+                </div>
+            {% endfor %}
+            <input type="submit" value="Cadastrar">
+             <div id="error">
+                 {% if msg %}
+                 {{ msg }}
+                 {% endif %}
+             </div>
+         </form>
+    </div>
+{% endblock %}

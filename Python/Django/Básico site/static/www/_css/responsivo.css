@@ -1,0 +1,107 @@
+#login{
+    text-align: center;
+    width: 350px;
+    height: 330px;
+    background-color: #B0E0E6;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+#error{
+    color: red;
+}
+
+
+#body{
+    margin: 0;
+}
+
+.corpo{
+    width: 960px;
+    margin: auto;
+}
+
+#logout{
+    margin: 0;
+    padding: 10px 10px;
+    float: right;
+}
+
+.menu ul{
+    position: relative;
+    margin: 0;
+    background-color: black;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: green;
+}
+
+#caixa{
+    text-align: center;
+    width: 450px;
+    height: 430px;
+    background-color: #B0E0E6;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+#novo{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: black;
+    border-radius: 3%;
+}
+
+#button{
+    text-align: center;
+    position: justify;
+}
+
+#edit{
+    text-align: right;
+    position: justify;
+    margin: 0 0 0 -2%;
+}
+
+#notice{
+    text-align: left;
+    position: justify;
+    width: auto;
+    height: auto;
+}
+
+.image{
+    text-color: white;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    border-radius: 3%;
+}
+
+#title{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+}
+
+#capa{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+

@@ -1,0 +1,14 @@
+<div class="menu">
+    <ul>
+        <li><a href="http://127.0.0.1:8000/home">Inicio</a></li>
+        <li><a href="#">Novidades</a></li>
+        <li><a href="#">Esportes</a></li>
+        <li><a href="#">Politicas</a></li>
+        {% if user == True%}
+            <div id="logout">
+                <li><a href="http://127.0.0.1:8000/logout">Logout</a></li>
+            </div>
+        {% endif %}
+    </ul>
+
+</div>
